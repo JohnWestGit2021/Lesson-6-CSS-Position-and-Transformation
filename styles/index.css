@@ -1,9 +1,9 @@
 body{
     font-family: poppins;
-
+    margin-left: 143px;
 }
 
-header{
+.heading{
     width: 1400px;
     height: 78px;
     margin-top: 20px;
@@ -23,7 +23,6 @@ header{
     justify-content: flex-start;
     align-items: center;
     display: flex;
-
 }
 
 .menu>li{
@@ -70,16 +69,64 @@ header{
     border: 1px solid #FF9900;
 }
 
-.headerinfo{
+.heading-content{
     display: inline-flex;
-    width: 1126px;
-    height: 331px;
-    margin-top: 113;
-    margin-left: 111px;
 }
 
-.headerinfo-content{
+.main-header-top {
+    text-align:center;
+    margin-top: 117px;
+}
 
-    box-sizing: border-box;
+.main-header{
+    margin-top: 3px;
 
+}
+
+.features{
+    display:inline-flex;
+    margin-left: 145px;
+}
+
+.features-one{
+
+
+}
+
+.features-two{
+    margin-left: 45px;
+    
+}
+
+.features-three{
+    margin-left: 45px;
+    
+}
+
+.features-four{
+    margin-left: 45px;
+    
+}
+
+.design-professionals {
+    display: inline-flex;
+    margin-top: 113px;
+
+}
+
+.design-professionals-content{
+    margin-left: 145px;
+    
+}
+
+.design-professionals-img{
+    margin-left: 104px;
+}
+
+.product-managers{
+    display: inline-flex;
+}
+
+.marketers{
+    display: inline-flex;
 }
